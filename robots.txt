@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://siteowned.ai/sitemap.xml
+Sitemap: https://aristowong.github.io/SiteOwned/sitemap.xml

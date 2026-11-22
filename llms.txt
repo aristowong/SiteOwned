@@ -1,0 +1,50 @@
+# SiteOwned
+
+> SiteOwned builds or moves a small-business website mostly with AI, for a one-time fee. The owner keeps the files and the free hosting. There is no Squarespace or Wix subscription. The required cost after launch is the domain, about $12 a year. Optional edit plans are separate and are not required to keep the site online. Contact: hello@siteowned.ai
+
+SiteOwned is a done-for-you AI website builder. Most of the drafting is AI. A person reviews the draft before launch. It does not publish testimonials, reviews, ratings, or client statistics.
+
+The live site is https://aristowong.github.io/SiteOwned/
+
+## Pages
+
+- [Home](https://aristowong.github.io/SiteOwned/): One-time fee website, built by AI, owned by the business. No monthly builder fee.
+- [Small business websites](https://aristowong.github.io/SiteOwned/small-business/): Cheap website for a small business, including a move off Squarespace or Wix.
+- [ClinicSite](https://aristowong.github.io/SiteOwned/clinics/): Physical therapy, occupational therapy, speech, and chiropractic websites. No patient data is stored on the site.
+- [DIY website course](https://aristowong.github.io/SiteOwned/course/): Own Your Site, for people who want to do the work themselves.
+
+The page at /clinics/sample/ is a fictional layout example. It is marked noindex and is not a client.
+
+## Small business prices
+
+- AI Move: $249 one-time. Copies an existing Squarespace or Wix site onto free hosting the owner controls.
+- AI Launch: $399 one-time. New site, 1 to 5 pages, from a 10-question intake, with AI-written copy, a human review, Google Business Profile setup, and the domain connected.
+- AI Edits: $9 per month, optional. Unlimited small edits by text or email. Canceling does not take the site down.
+
+## ClinicSite prices
+
+ClinicSite is SiteOwned for physical therapy, occupational therapy, speech, and chiropractic practices.
+
+- AI Move: $399 one-time. Moves the current site, connects a booking or EMR link such as Jane, WebPT, or SimplePractice, and connects the Google profile.
+- AI Launch: $699 one-time. New site, up to 8 pages: condition and service pages, provider bios, insurance information, and local wording such as “pediatric OT in Redondo Beach.”
+- AI Edits: $19 per month, optional. Unlimited small edits by text or email.
+
+No patient data is stored on the site. Intake goes through the practice’s own HIPAA-compliant tools. The website only links to them.
+
+## DIY course prices
+
+Own Your Site: The SiteOwned DIY Course.
+
+- Course: $49. The lessons, including the clinic bonus.
+- Course + Templates: $89. The course plus starter templates for a small business and a clinic.
+- Course + 45-minute done-with-you call: $199. The course plus one working call. Templates are not included unless that is agreed before payment.
+
+## How the work is done
+
+1. Intake, or the URL of the site to move.
+2. AI drafts the pages and the words.
+3. A person reviews the draft.
+4. Launch on free hosting the owner controls.
+5. Later edits by text or email, with AI, if the owner wants that help.
+
+There is no checkout on the site. The contact form opens an email to hello@siteowned.ai.
