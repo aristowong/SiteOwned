@@ -36,7 +36,7 @@ From the repository root:
 python3 -m http.server 8080
 ```
 
-Open `http://localhost:8080/`. Use a local server so root paths such as `/css/styles.css` resolve. Opening the HTML files directly from disk will not load the CSS.
+Open `http://localhost:8080/`. Links and assets are relative to each page, so the same files work at a domain root (`siteowned.ai`, Cloudflare Pages) and under a GitHub project path such as `https://aristowong.github.io/SiteOwned/`.
 
 ## Deploy on GitHub Pages
 
@@ -48,6 +48,8 @@ The workflow in `.github/workflows/pages.yml` publishes the site on every push t
 4. Push to `main`, or run the “Deploy GitHub Pages” workflow by hand.
 
 The workflow copies the site to `_site` (skipping `.git` and `.github`) and deploys that folder. `.nojekyll` is included so GitHub Pages does not run Jekyll.
+
+A project site is served from `/<repository>/` (this repo: `/SiteOwned/`). A user site or a custom domain is served from `/`. Relative links cover both, so the pages do not hard-code a base path.
 
 ### Custom domain
 
