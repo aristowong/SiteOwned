@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SiteOwned social image</title>
+  <style>
+    @font-face {
+      font-family: "Fraunces";
+      font-style: normal;
+      font-weight: 100 900;
+      src: url("fonts/fraunces-latin.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "Fraunces";
+      font-style: italic;
+      font-weight: 100 900;
+      src: url("fonts/fraunces-italic.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "Outfit";
+      font-style: normal;
+      font-weight: 100 900;
+      src: url("fonts/outfit-latin.woff2") format("woff2");
+    }
+    html, body {
+      margin: 0;
+      width: 1200px;
+      height: 630px;
+      overflow: hidden;
+      background: #f3efe7;
+      color: #17262b;
+      font-family: Outfit, sans-serif;
+    }
+    .card {
+      box-sizing: border-box;
+      width: 1200px;
+      height: 630px;
+      padding: 72px 80px 56px;
+      display: flex;
+      flex-direction: column;
+      background:
+        radial-gradient(700px 320px at 100% 0%, rgba(28, 95, 89, 0.14), transparent 60%),
+        #f3efe7;
+      border-top: 14px solid #1c5f59;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-family: Fraunces, serif;
+      font-size: 40px;
+      font-weight: 560;
+      letter-spacing: -0.03em;
+    }
+    .brand svg { width: 48px; height: 48px; }
+    h1 {
+      margin: 56px 0 0;
+      max-width: 920px;
+      font-family: Fraunces, serif;
+      font-size: 84px;
+      font-weight: 560;
+      letter-spacing: -0.035em;
+      line-height: 0.98;
+    }
+    h1 em {
+      font-style: italic;
+      font-weight: 560;
+      color: #12443f;
+    }
+    .foot {
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 28px;
+      font-weight: 500;
+      color: #1c5f59;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="brand">
+      <svg viewBox="0 0 32 32" aria-hidden="true">
+        <rect x="2.5" y="2.5" width="27" height="27" rx="8" fill="none" stroke="#1c5f59" stroke-width="2"/>
+        <rect x="16.5" y="16.5" width="9" height="9" rx="2.5" fill="#1c5f59"/>
+      </svg>
+      SiteOwned
+    </div>
+    <h1>Your website, built by AI. <em>Owned by you.</em></h1>
+    <div class="foot">
+      <span>siteowned.ai</span>
+      <span>No monthly fees</span>
+    </div>
+  </div>
+</body>
+</html>
