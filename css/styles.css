@@ -1094,6 +1094,28 @@ p a {
   display: none;
 }
 
+.diff-scroll {
+  overflow-x: auto;
+}
+
+.diff-table {
+  width: 100%;
+  min-width: 40rem;
+  border-collapse: collapse;
+}
+
+.diff-table th,
+.diff-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.75rem 0.6rem;
+  border-top: 1px solid var(--line);
+}
+
+.diff-table thead th {
+  font-size: 0.95rem;
+}
+
 .crumb a {
   color: inherit;
 }
