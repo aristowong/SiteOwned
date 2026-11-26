@@ -1,0 +1,63 @@
+{
+  "asOf": "2026-11-26",
+  "notes": [
+    "Squarespace USD rates are from Squarespace's pricing data file, which lists monthly billing, the annual plan's per-month equivalent, and the annual total. The public pricing page shows Basic at $25/mo and $19/mo and says paying annually saves up to 36%.",
+    "Wix figures are yearly subscriptions shown as a per-month price and paid in full up front. The Wix pages checked for this file did not publish a separate month-to-month dollar amount, so this calculator does not invent one.",
+    "A domain is about $12 a year either way and is not added on top. Squarespace says an annual plan includes one year of domain registration on its cheapest tier.",
+    "No add-on prices (email marketing, booking apps) are included. This pass did not pull official add-on price lists."
+  ],
+  "squarespace": {
+    "name": "Squarespace",
+    "sourceUrl": "https://www.squarespace.com/assets/pricing.txt",
+    "pageUrl": "https://www.squarespace.com/pricing",
+    "sourceUpdated": "2026-10-05",
+    "plans": [
+      { "id": "basic", "name": "Basic", "monthly": 25, "annualPerMonth": 19, "annualTotal": 228 },
+      { "id": "core", "name": "Core", "monthly": 39, "annualPerMonth": 29, "annualTotal": 348 },
+      { "id": "plus", "name": "Plus", "monthly": 65, "annualPerMonth": 49, "annualTotal": 588 },
+      { "id": "advanced", "name": "Advanced", "monthly": 139, "annualPerMonth": 99, "annualTotal": 1188 }
+    ]
+  },
+  "wix": {
+    "name": "Wix",
+    "sourceUrl": "https://www.wix.com/plans",
+    "alsoUrl": "https://www.wix.com/blog/how-much-does-wix-harmony-cost",
+    "builderUrl": "https://www.wix.com/website-builder",
+    "billingNote": "Yearly price, shown per month. Month-to-month dollar amounts were not published on these pages.",
+    "plans": [
+      { "id": "light", "name": "Light", "annualPerMonth": 17 },
+      { "id": "core", "name": "Core", "annualPerMonth": 29 },
+      { "id": "business", "name": "Business", "annualPerMonth": 39 },
+      { "id": "elite", "name": "Business Elite", "annualPerMonth": 159 }
+    ]
+  },
+  "agency": {
+    "name": "Typical agency",
+    "kind": "estimate",
+    "setupLow": 1249,
+    "setupHigh": 4000,
+    "setupDefault": 1249,
+    "monthlyDefault": 0,
+    "note": "Typical estimate, not a sourced price. Setup uses the low end of a $1,249 to $4,000 range. Monthly retainer starts at $0 until you type the quote you were given."
+  },
+  "siteowned": {
+    "small-business": {
+      "label": "Small business",
+      "packages": [
+        { "id": "move", "name": "AI Move", "amount": 249 },
+        { "id": "launch", "name": "AI Launch", "amount": 399 }
+      ],
+      "defaultPackage": "launch",
+      "careMonthly": 9
+    },
+    "clinic": {
+      "label": "Clinic",
+      "packages": [
+        { "id": "move", "name": "AI Move", "amount": 399 },
+        { "id": "launch", "name": "AI Launch", "amount": 699 }
+      ],
+      "defaultPackage": "launch",
+      "careMonthly": 19
+    }
+  }
+}

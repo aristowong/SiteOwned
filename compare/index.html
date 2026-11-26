@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Cost Comparison | SiteOwned</title>
+  <meta name="description" content="Compare Squarespace, Wix, or an agency estimate with a one-time SiteOwned fee over 1 to 5 years. Prices are cited. You own the site.">
+  <link rel="canonical" href="https://aristowong.github.io/SiteOwned/compare/">
+  <meta name="theme-color" content="#1c5f59">
+  <meta property="og:title" content="Website Cost Comparison | SiteOwned">
+  <meta property="og:description" content="See what a Squarespace, Wix, or agency bill costs over time next to a one-time SiteOwned fee.">
+  <meta property="og:url" content="https://aristowong.github.io/SiteOwned/compare/">
+  <meta property="og:image" content="https://aristowong.github.io/SiteOwned/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Website Cost Comparison | SiteOwned">
+  <meta name="twitter:description" content="Compare a subscription or agency estimate with a one-time SiteOwned fee.">
+  <meta name="twitter:image" content="https://aristowong.github.io/SiteOwned/assets/og.png">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How is the savings number calculated?",
+        "acceptedAnswer": {"@type": "Answer", "text": "The calculator adds the current option's bills for the years you pick, then subtracts the SiteOwned package and, if you turn it on, the care plan. A domain fee of about $12 a year is left out of both sides."}
+      },
+      {
+        "@type": "Question",
+        "name": "Are the Squarespace and Wix prices exact?",
+        "acceptedAnswer": {"@type": "Answer", "text": "They are the USD figures published on Squarespace's pricing file and Wix's plan pages as of 26 November 2026. Wix's pages listed yearly prices, not a separate month-to-month amount. Plans change, so check the source links."}
+      },
+      {
+        "@type": "Question",
+        "name": "Is the agency number a real quote?",
+        "acceptedAnswer": {"@type": "Answer", "text": "No. The setup field is a typical estimate, starting at the low end of $1,249 to $4,000. The monthly retainer starts at $0 until you type a number you were actually quoted."}
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../"><span>SiteOwned</span></a>
+      <input class="nav-check" id="nav-toggle" data-nav-check type="checkbox">
+      <label class="nav-toggle" for="nav-toggle" data-nav-toggle aria-controls="site-nav" aria-expanded="false"><span class="sr-only">Menu</span><span class="burger" aria-hidden="true"></span></label>
+      <nav class="nav" id="site-nav" data-nav aria-label="Primary">
+        <a href="../small-business/">Small businesses</a>
+        <a href="../clinics/">Clinicians</a>
+        <a href="../course/">DIY course</a>
+        <a href="../compare/" aria-current="page">Compare</a>
+        <a href="../how-it-works/">How it works</a>
+        <a class="button button--small" href="../start/">Get started</a>
+      </nav>
+    </div>
+  </header>
+  <main id="content">
+    <header class="wrap page-hero">
+      <nav class="crumb" aria-label="Breadcrumb"><a href="../">Home</a> / Compare</nav>
+      <p class="kicker">Price comparison</p>
+      <h1>What a subscription costs over time</h1>
+      <p class="lede">Most of a SiteOwned site is AI. You pay once and you own the files. This page puts that next to Squarespace, Wix, or an agency estimate you can edit. It is arithmetic, not a promise about your old bill.</p>
+    </header>
+    <section class="section">
+      <div class="wrap">
+        <div data-compare data-source="../data/pricing-compare.json"></div>
+        <p class="compare-sources">Prices as of 26 November 2026. Squarespace USD rates: <a href="https://www.squarespace.com/assets/pricing.txt">pricing file</a> (data dated 5 October 2026) and <a href="https://www.squarespace.com/pricing">pricing page</a>. Wix yearly prices: <a href="https://www.wix.com/plans">plans</a>, <a href="https://www.wix.com/website-builder">website builder</a>, and <a href="https://www.wix.com/blog/how-much-does-wix-harmony-cost">Wix Harmony cost note</a> (US yearly rates as of 5 November 2026). The agency row is a typical estimate, not a published rate.</p>
+        <h2>Questions</h2>
+        <div class="faq">
+          <details>
+            <summary>How is the savings number calculated?</summary>
+            <p>The calculator adds the current option's bills for the years you pick, then subtracts the SiteOwned package and, if you turn it on, the care plan. A domain fee of about $12 a year is left out of both sides.</p>
+          </details>
+          <details>
+            <summary>Are the Squarespace and Wix prices exact?</summary>
+            <p>They are the USD figures published on Squarespace's pricing file and Wix's plan pages as of 26 November 2026. Wix's pages listed yearly prices, not a separate month-to-month amount. Plans change, so check the source links.</p>
+          </details>
+          <details>
+            <summary>Is the agency number a real quote?</summary>
+            <p>No. The setup field is a typical estimate, starting at the low end of $1,249 to $4,000. The monthly retainer starts at $0 until you type a number you were actually quoted.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-base">
+      <p><a href="../terms/">Terms</a> · <a href="../privacy/">Privacy</a> · <a href="../refunds/">Refunds</a></p>
+      <p>Last updated 26 November 2026</p>
+    </div>
+  </footer>
+  <script src="../js/site.js"></script>
+  <script type="module" src="../js/compare.js"></script>
+</body>
+</html>
