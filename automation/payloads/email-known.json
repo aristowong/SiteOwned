@@ -1,0 +1,5 @@
+{
+  "from": "owner@merrin-quill.example",
+  "text": "Change the sample hours note to say Friday is by appointment.",
+  "headers": { "authentication-results": "mx.example; spf=pass smtp.mailfrom=merrin-quill.example; dkim=pass header.d=merrin-quill.example" }
+}

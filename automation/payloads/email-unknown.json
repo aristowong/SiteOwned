@@ -1,0 +1,5 @@
+{
+  "from": "stranger@example.net",
+  "text": "Please rewrite the whole site.",
+  "headers": { "authentication-results": "mx.example; spf=pass; dkim=pass" }
+}

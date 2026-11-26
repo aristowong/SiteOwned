@@ -4,6 +4,13 @@ Marketing site for [SiteOwned](https://siteowned.ai) and [ClinicSite](https://cl
 
 The pages are the product pitch. SiteOwned builds or moves a small-business website with AI, hosts it on a free static plan, and leaves the files with the owner. The only required ongoing cost described on the site is the domain, about $12 a year. Optional edit plans are separate.
 
+## Also in this repo
+
+- `automation/` — email update worker. SMS adapters are off.
+- `payments-config.json` — test-mode payment links. Replace every `TODO` before live charges.
+- `docs/` — operator notes, including payment and course testing.
+- Public pages: `/how-it-works/`, `/checkout/`, `/learn/`, `/start/`, `/terms/`, `/privacy/`, `/refunds/`.
+
 ## Pages
 
 | URL | File | Purpose |

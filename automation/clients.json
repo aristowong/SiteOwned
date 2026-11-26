@@ -1,0 +1,18 @@
+{
+  "clients": [
+    {
+      "id": "merrin-quill",
+      "name": "Merrin & Quill Pediatric Therapy",
+      "plan": "clinic-launch",
+      "active": false,
+      "clinic": true,
+      "emails": ["owner@merrin-quill.example"],
+      "phones": ["+13105550198"],
+      "repo": "aristowong/SiteOwned",
+      "sitePath": "clinics/sample",
+      "siteUrl": "https://aristowong.github.io/SiteOwned/clinics/sample/",
+      "monthlyPublishCap": 100,
+      "note": "Fictional sample clinic. Not a real practice."
+    }
+  ]
+}

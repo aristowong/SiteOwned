@@ -955,6 +955,42 @@ p a {
   font-size: 0.92rem;
 }
 
+.test-banner {
+  background: #f4ead7;
+  color: #3f3016;
+  text-align: center;
+  padding: 0.7rem 1rem;
+  font-weight: 600;
+}
+
+.hp {
+  position: absolute;
+  left: -9999px;
+}
+
+.legal-meta {
+  margin-top: 2rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.lesson-body {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.progress-track {
+  height: 0.5rem;
+  background: var(--paper-deep);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: var(--tide);
+}
+
 .crumb a {
   color: inherit;
 }

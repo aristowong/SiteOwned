@@ -1,0 +1,15 @@
+{
+  "id": "evt_test_course",
+  "type": "checkout.session.completed",
+  "livemode": false,
+  "data": {
+    "object": {
+      "id": "cs_test_course",
+      "customer_email": "student@example.com",
+      "livemode": false,
+      "mode": "payment",
+      "metadata": { "product_id": "course" },
+      "customer_details": { "name": "Test Student" }
+    }
+  }
+}

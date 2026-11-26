@@ -1,0 +1,113 @@
+{
+  "mode": "test",
+  "supportEmail": "hello@siteowned.ai",
+  "learnApi": "",
+  "intakeApi": "",
+  "billingPortal": {
+    "test": "TODO_TEST_BILLING_PORTAL_LINK",
+    "live": "TODO_LIVE_BILLING_PORTAL_LINK"
+  },
+  "callBooking": {
+    "test": "TODO_TEST_CALL_BOOKING_LINK",
+    "live": "TODO_LIVE_CALL_BOOKING_LINK"
+  },
+  "templateLink": "TODO_TEMPLATE_DOWNLOAD_LINK",
+  "products": [
+    {
+      "id": "sb-move",
+      "name": "AI Move",
+      "audience": "Small business",
+      "amount": 249,
+      "interval": null,
+      "blurb": "One-time move off Squarespace or Wix.",
+      "test": { "link": "TODO_TEST_PAYMENT_LINK_SB_MOVE", "priceId": "price_test_TODO_sb_move" },
+      "live": { "link": "TODO_LIVE_PAYMENT_LINK_SB_MOVE", "priceId": "price_live_TODO_sb_move" }
+    },
+    {
+      "id": "sb-launch",
+      "name": "AI Launch",
+      "audience": "Small business",
+      "amount": 399,
+      "interval": null,
+      "blurb": "One-time new site, 1 to 5 pages.",
+      "test": { "link": "TODO_TEST_PAYMENT_LINK_SB_LAUNCH", "priceId": "price_test_TODO_sb_launch" },
+      "live": { "link": "TODO_LIVE_PAYMENT_LINK_SB_LAUNCH", "priceId": "price_live_TODO_sb_launch" }
+    },
+    {
+      "id": "sb-care",
+      "name": "AI Edits",
+      "audience": "Small business",
+      "amount": 9,
+      "interval": "month",
+      "blurb": "Optional monthly small edits by email.",
+      "test": { "link": "TODO_TEST_PAYMENT_LINK_SB_CARE", "priceId": "price_test_TODO_sb_care" },
+      "live": { "link": "TODO_LIVE_PAYMENT_LINK_SB_CARE", "priceId": "price_live_TODO_sb_care" }
+    },
+    {
+      "id": "clinic-move",
+      "name": "ClinicSite AI Move",
+      "audience": "Clinic",
+      "amount": 399,
+      "interval": null,
+      "clinic": true,
+      "blurb": "One-time move of a practice site.",
+      "test": { "link": "TODO_TEST_PAYMENT_LINK_CLINIC_MOVE", "priceId": "price_test_TODO_clinic_move" },
+      "live": { "link": "TODO_LIVE_PAYMENT_LINK_CLINIC_MOVE", "priceId": "price_live_TODO_clinic_move" }
+    },
+    {
+      "id": "clinic-launch",
+      "name": "ClinicSite AI Launch",
+      "audience": "Clinic",
+      "amount": 699,
+      "interval": null,
+      "clinic": true,
+      "blurb": "One-time new clinic site, up to 8 pages.",
+      "test": { "link": "TODO_TEST_PAYMENT_LINK_CLINIC_LAUNCH", "priceId": "price_test_TODO_clinic_launch" },
+      "live": { "link": "TODO_LIVE_PAYMENT_LINK_CLINIC_LAUNCH", "priceId": "price_live_TODO_clinic_launch" }
+    },
+    {
+      "id": "clinic-care",
+      "name": "ClinicSite AI Edits",
+      "audience": "Clinic",
+      "amount": 19,
+      "interval": "month",
+      "clinic": true,
+      "blurb": "Optional monthly small edits by email.",
+      "test": { "link": "TODO_TEST_PAYMENT_LINK_CLINIC_CARE", "priceId": "price_test_TODO_clinic_care" },
+      "live": { "link": "TODO_LIVE_PAYMENT_LINK_CLINIC_CARE", "priceId": "price_live_TODO_clinic_care" }
+    },
+    {
+      "id": "course",
+      "name": "Own Your Site course",
+      "audience": "Course",
+      "amount": 49,
+      "interval": null,
+      "courseTier": "course",
+      "blurb": "DIY course, including the clinic bonus.",
+      "test": { "link": "TODO_TEST_PAYMENT_LINK_COURSE", "priceId": "price_test_TODO_course" },
+      "live": { "link": "TODO_LIVE_PAYMENT_LINK_COURSE", "priceId": "price_live_TODO_course" }
+    },
+    {
+      "id": "course-templates",
+      "name": "Course + Templates",
+      "audience": "Course",
+      "amount": 89,
+      "interval": null,
+      "courseTier": "templates",
+      "blurb": "Course plus starter templates.",
+      "test": { "link": "TODO_TEST_PAYMENT_LINK_COURSE_TEMPLATES", "priceId": "price_test_TODO_course_templates" },
+      "live": { "link": "TODO_LIVE_PAYMENT_LINK_COURSE_TEMPLATES", "priceId": "price_live_TODO_course_templates" }
+    },
+    {
+      "id": "course-call",
+      "name": "Course + 45-minute call",
+      "audience": "Course",
+      "amount": 199,
+      "interval": null,
+      "courseTier": "call",
+      "blurb": "Course plus one 45-minute done-with-you call. Templates are not included.",
+      "test": { "link": "TODO_TEST_PAYMENT_LINK_COURSE_CALL", "priceId": "price_test_TODO_course_call" },
+      "live": { "link": "TODO_LIVE_PAYMENT_LINK_COURSE_CALL", "priceId": "price_live_TODO_course_call" }
+    }
+  ]
+}

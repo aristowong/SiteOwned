@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout | SiteOwned</title>
+  <meta name="description" content="Pay for a SiteOwned package or course. Test mode is the default and does not charge a card until live links are set.">
+  <link rel="canonical" href="https://aristowong.github.io/SiteOwned/checkout/">
+  <meta name="theme-color" content="#1c5f59">
+  <meta property="og:title" content="Checkout | SiteOwned">
+  <meta property="og:description" content="Test-mode checkout for SiteOwned packages, care plans, and the DIY course.">
+  <meta property="og:url" content="https://aristowong.github.io/SiteOwned/checkout/">
+  <meta property="og:image" content="https://aristowong.github.io/SiteOwned/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <p class="test-banner" data-test-banner hidden>TEST MODE. No real charge. Card numbers on this screen are not accepted here until a Stripe test link is pasted into the config.</p>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../">
+        <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="2.5" y="2.5" width="27" height="27" rx="8" fill="none" stroke="currentColor" stroke-width="2"/><rect x="16.5" y="16.5" width="9" height="9" rx="2.5" fill="currentColor"/></svg>
+        <span>SiteOwned</span>
+      </a>
+      <input class="nav-check" id="nav-toggle" data-nav-check type="checkbox">
+      <label class="nav-toggle" for="nav-toggle" data-nav-toggle aria-controls="site-nav" aria-expanded="false"><span class="sr-only">Menu</span><span class="burger" aria-hidden="true"></span></label>
+      <nav class="nav" id="site-nav" data-nav aria-label="Primary">
+        <a href="../small-business/">Small businesses</a>
+        <a href="../clinics/">Clinicians</a>
+        <a href="../course/">DIY course</a>
+        <a href="../how-it-works/">How it works</a>
+        <a class="button button--small" href="../start/">Get started</a>
+      </nav>
+    </div>
+  </header>
+  <main id="content" class="section">
+    <div class="wrap">
+      <nav class="crumb" aria-label="Breadcrumb"><a href="../">Home</a> / Checkout</nav>
+      <h1>Checkout</h1>
+      <p class="lede">Most of the site work is AI. You own the files after launch. Prices below are the published package prices. If a pay link is not configured yet, the button opens an email to hello@siteowned.ai.</p>
+      <div class="prices" data-checkout></div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-base">
+      <p>© 2026 SiteOwned</p>
+      <p><a href="../terms/">Terms</a> · <a href="../privacy/">Privacy</a> · <a href="../refunds/">Refunds</a></p>
+      <p>Last updated 26 November 2026</p>
+    </div>
+  </footer>
+  <script src="../js/site.js"></script>
+  <script type="module" src="checkout.js"></script>
+</body>
+</html>

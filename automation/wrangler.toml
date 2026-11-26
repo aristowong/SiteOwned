@@ -1,0 +1,33 @@
+name = "siteowned-updates"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+# Placeholder secrets. Set them with `wrangler secret put`, never in this file.
+# GITHUB_TOKEN, LLM_API_KEY or GEMINI_API_KEY, STRIPE_WEBHOOK_SECRET,
+# STRIPE_WEBHOOK_SECRET_LIVE (only when you leave test mode),
+# RESEND_API_KEY (optional outbound email), TWILIO_AUTH_TOKEN (only if SMS is enabled)
+
+[vars]
+DRY_RUN = "true"
+STRIPE_MODE = "test"
+CHANNEL_EMAIL = "true"
+CHANNEL_GOOGLE_VOICE = "false"
+CHANNEL_TWILIO = "false"
+LLM_PROVIDER = "gemini"
+LLM_MODEL = "gemini-2.0-flash"
+OWNER_EMAIL = "hello@siteowned.ai"
+GITHUB_REPO = "aristowong/SiteOwned"
+GITHUB_DEFAULT_BRANCH = "main"
+SITE_BASE_URL = "https://aristowong.github.io/SiteOwned"
+PUBLIC_SITE_PREVIEW = "https://aristowong.github.io/SiteOwned/"
+MONTHLY_PUBLISH_CAP = "100"
+
+[[kv_namespaces]]
+binding = "STATE"
+id = "TODO_KV_NAMESPACE_ID"
+preview_id = "TODO_KV_PREVIEW_ID"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "siteowned"
+database_id = "TODO_D1_DATABASE_ID"
