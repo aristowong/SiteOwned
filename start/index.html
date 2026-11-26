@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get Started | SiteOwned</title>
+  <meta name="description" content="Tell SiteOwned about the business. Free intake. Most of the work is AI. You own the site. Do not include health information.">
+  <link rel="canonical" href="https://aristowong.github.io/SiteOwned/start/">
+  <meta name="theme-color" content="#1c5f59">
+  <meta property="og:title" content="Get Started | SiteOwned">
+  <meta property="og:url" content="https://aristowong.github.io/SiteOwned/start/">
+  <meta property="og:image" content="https://aristowong.github.io/SiteOwned/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../"><span>SiteOwned</span></a>
+      <nav class="nav" id="site-nav" data-nav aria-label="Primary" style="display:flex;position:static;margin-left:auto">
+        <a href="../how-it-works/">How it works</a>
+        <a class="button button--small" href="../checkout/">Checkout</a>
+      </nav>
+    </div>
+  </header>
+  <main id="content" class="section">
+    <div class="wrap" style="max-width:40rem">
+      <h1>Get started</h1>
+      <p class="lede">Free. Tell us the business in a few fields. Most of the build is AI. You own the files. If you are a clinic, do not include patient or health information.</p>
+      <form id="intake" class="form-grid">
+        <label>Name <input name="name" required autocomplete="name"></label>
+        <label>Business name <input name="business_name" required></label>
+        <label>Email <input name="email" type="email" required autocomplete="email"></label>
+        <label>Phone, optional <input name="phone" autocomplete="tel"></label>
+        <label>Business type
+          <select name="business_type" required>
+            <option value="small-business">Small business</option>
+            <option value="pt">Physical therapy</option>
+            <option value="ot">Occupational therapy</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+        <label>Current website URL <input name="website_url" type="url" placeholder="https://"></label>
+        <label>Current platform
+          <select name="platform">
+            <option>Squarespace</option>
+            <option>Wix</option>
+            <option>WordPress</option>
+            <option>none</option>
+            <option>other</option>
+          </select>
+        </label>
+        <label>Package interest
+          <select name="package_interest">
+            <option>AI Move $249</option>
+            <option>AI Launch $399</option>
+            <option>AI Edits $9/month</option>
+            <option>ClinicSite AI Move $399</option>
+            <option>ClinicSite AI Launch $699</option>
+            <option>ClinicSite AI Edits $19/month</option>
+            <option>Course $49</option>
+            <option>Course + Templates $89</option>
+            <option>Course + 45-minute call $199</option>
+          </select>
+        </label>
+        <label>Domain owned?
+          <select name="domain_owned"><option value="yes">Yes</option><option value="no">No</option></select>
+        </label>
+        <label>Timeline <input name="timeline" placeholder="About 48 hours after intake"></label>
+        <label>Notes <textarea name="notes" maxlength="2000"></textarea></label>
+        <label class="hp">Company website <input name="company_website" tabindex="-1" autocomplete="off"></label>
+        <label><input name="consent" type="checkbox" required> I agree to the <a href="../privacy/">privacy policy</a>.</label>
+        <button class="button" type="submit">Send intake</button>
+      </form>
+      <p id="thanks" class="lede" hidden>Thanks. We have the intake. If the worker is not connected yet, your email app should have opened a message to hello@siteowned.ai.</p>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-base">
+      <p><a href="../terms/">Terms</a> · <a href="../privacy/">Privacy</a> · <a href="../refunds/">Refunds</a></p>
+      <p>Last updated 26 November 2026</p>
+    </div>
+  </footer>
+  <script src="../js/site.js"></script>
+  <script src="start.js"></script>
+</body>
+</html>

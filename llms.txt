@@ -12,6 +12,10 @@ The live site is https://aristowong.github.io/SiteOwned/
 - [Small business websites](https://aristowong.github.io/SiteOwned/small-business/): Cheap website for a small business, including a move off Squarespace or Wix.
 - [ClinicSite](https://aristowong.github.io/SiteOwned/clinics/): Physical therapy, occupational therapy, speech, and chiropractic websites. No patient data is stored on the site.
 - [DIY website course](https://aristowong.github.io/SiteOwned/course/): Own Your Site, for people who want to do the work themselves.
+- [How email updates work](https://aristowong.github.io/SiteOwned/how-it-works/): Email a change, preview, reply YES to publish. Texting is not on.
+- [Get started](https://aristowong.github.io/SiteOwned/start/): Free intake form. Do not send health information.
+- [Checkout](https://aristowong.github.io/SiteOwned/checkout/): Test mode by default. Real charges start only after live Stripe links replace the TODOs.
+- [Course classroom](https://aristowong.github.io/SiteOwned/learn/): Lessons for people who have purchased the course.
 
 The page at /clinics/sample/ is a fictional layout example. It is marked noindex and is not a client.
 
